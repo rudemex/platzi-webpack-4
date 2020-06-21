@@ -1,0 +1,27 @@
+{
+  "name": "platzi-webpack-4",
+  "version": "1.0.0",
+  "description": "Platzi - Curso de Webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Maximiliano \"Mex\" Delgado <mdelgado@tresdoce.com.ar>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudemex/platzi-webpack-4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rudemex/platzi-webpack-4/issues"
+  },
+  "homepage": "https://github.com/rudemex/platzi-webpack-4#readme",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.32.2",
+    "webpack-cli": "3.3.2"
+  }
+}
