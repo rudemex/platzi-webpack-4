@@ -45,3 +45,10 @@ npx webpack --entry ./index.js --output ./bundle.js --mode production
 Los **Loaders** son la funcionalidad que nos da Webpack para interpretar tipos de archivos no soportados de forma nativa por Javascript.
 
 **style-loader** sirve para inyectar un tag style (el CSS) al DOM de nuestro HTML, mientras que css-loader sólo sirve para interpretar archivos CSS.
+
+--- 
+
+#### Clase 9
+
+Los Plugins sirven para extender las capacidades de webpack y dar más poder a los loaders.
+
