@@ -52,3 +52,12 @@ Los **Loaders** son la funcionalidad que nos da Webpack para interpretar tipos d
 
 Los Plugins sirven para extender las capacidades de webpack y dar más poder a los loaders.
 
+---
+
+#### Clase 10
+
+Anexar flag a tarea
+```
+npm run build:dev -- -w
+```
+
