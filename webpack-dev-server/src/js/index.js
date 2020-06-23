@@ -1,3 +1,11 @@
 import '../css/index.css';
-console.log("Hola mundo desde Webpack home");
-document.body.innerHTML = "Hola mundo desde Webpack home"
+import text from './test';
+
+text();
+
+if(module.hot){
+    module.hot.accept('./test.js', function () {
+        console.log("hot")
+        text()
+    })
+}
