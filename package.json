@@ -11,7 +11,9 @@
     "build:css": "webpack --config ./css-style-loader/webpack.config.js",
     "build:plugins": "webpack --config ./plugins/webpack.config.js",
     "build:dev": "webpack --config ./webpack-dev-server/webpack.config.js --watch",
-    "build:dev-server": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js"
+    "build:dev-server": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js",
+    "build:babel": "webpack --config ./babel/webpack.config.js",
+    "build:babel-dev": "webpack-dev-server --config ./babel/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -26,14 +28,20 @@
   },
   "homepage": "https://github.com/rudemex/platzi-webpack-4#readme",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/runtime": "^7.10.3"
+  },
   "devDependencies": {
-    "css-loader": "2.1.1",
-    "html-webpack-plugin": "3.2.0",
-    "mini-css-extract-plugin": "0.7.0",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
     "style-loader": "^1.2.1",
-    "webpack": "4.32.2",
-    "webpack-cli": "3.3.2",
-    "webpack-dev-server": "3.5.1"
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
