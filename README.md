@@ -69,3 +69,10 @@ Javascript es un lenguaje moderno en evolución, siempre agregando nuevas funcio
 
 Para poder usar Javascript moderno y tener una buena Developer Experience sin afectar la User Experience, existe Babel. Babel transpila nuestro código moderno de Javascript a una una versión que todos los navegadores pueden entender.
 
+---
+
+#### Clase 14
+
+JSX es un lenguaje de templates para React que permite definir componentes con un código muy similar al HTML.
+
+No existe navegador que entienda JSX porque no es un estándar, es algo especifico de React. Afortunadamente Babel puede transpilar el código JSX de nuestros archivos JS a código que el navegador.
