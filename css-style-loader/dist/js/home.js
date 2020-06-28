@@ -88,12 +88,12 @@
 
 /***/ "./css-style-loader/src/css/index.css":
 /*!********************************************!*\
-  !*** ./css-style-loader/src/css/index.css ***!
+  !*** ./css-style-loader/src/css/estilos.css ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!./index.css */ \"./node_modules/css-loader/dist/cjs.js!./css-style-loader/src/css/index.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./css-style-loader/src/css/index.css?");
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!./estilos.css */ \"./node_modules/css-loader/dist/cjs.js!./css-style-loader/src/css/estilos.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./css-style-loader/src/css/estilos.css?");
 
 /***/ }),
 
@@ -105,18 +105,18 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/index.css */ \"./css-style-loader/src/css/index.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\nconsole.log(\"Hola mundo desde Webpack home\");\r\ndocument.body.innerHTML = \"Hola mundo desde Webpack home\"\n\n//# sourceURL=webpack:///./css-style-loader/src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/estilos.css */ \"./css-style-loader/src/css/estilos.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\nconsole.log(\"Hola mundo desde Webpack home\");\r\ndocument.body.innerHTML = \"Hola mundo desde Webpack home\"\n\n//# sourceURL=webpack:///./css-style-loader/src/js/index.js?");
 
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./css-style-loader/src/css/index.css":
 /*!**********************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./css-style-loader/src/css/index.css ***!
+  !*** ./node_modules/css-loader/dist/cjs.js!./css-style-loader/src/css/estilos.css ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\r\\n    background: lightblue;\\r\\n    display: flex;\\r\\n    align-content: center;\\r\\n    justify-content: center;\\r\\n    min-height: 100vh;\\r\\n    margin: 0;\\r\\n    font-size: 40px;\\r\\n    font-family: Arial;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./css-style-loader/src/css/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\r\\n    background: lightblue;\\r\\n    display: flex;\\r\\n    align-content: center;\\r\\n    justify-content: center;\\r\\n    min-height: 100vh;\\r\\n    margin: 0;\\r\\n    font-size: 40px;\\r\\n    font-family: Arial;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./css-style-loader/src/css/estilos.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 

@@ -88,12 +88,12 @@
 
 /***/ "./plugins/src/css/index.css":
 /*!***********************************!*\
-  !*** ./plugins/src/css/index.css ***!
+  !*** ./plugins/src/css/estilos.css ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./plugins/src/css/index.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./plugins/src/css/estilos.css?");
 
 /***/ }),
 
@@ -105,7 +105,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./plug
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/index.css */ \"./plugins/src/css/index.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\nconsole.log(\"Hola mundo desde Webpack home\");\r\ndocument.body.innerHTML = \"Hola mundo desde Webpack home\"\n\n//# sourceURL=webpack:///./plugins/src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/estilos.css */ \"./plugins/src/css/estilos.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\nconsole.log(\"Hola mundo desde Webpack home\");\r\ndocument.body.innerHTML = \"Hola mundo desde Webpack home\"\n\n//# sourceURL=webpack:///./plugins/src/js/index.js?");
 
 /***/ })
 
