@@ -8,6 +8,8 @@
 /.vscode
 
 node_modules
+**/node_module/**
+./platzi-badges/node_modules
 .DS_Store
 
 #==================================

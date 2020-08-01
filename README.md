@@ -34,6 +34,7 @@ El comando webpack tiene una bandera llamada `--mode` que nos permite cambiar en
 npx webpack --entry ./index.js --output ./bundle.js --mode development
 ```
 
+
 ```sh
 npx webpack --entry ./index.js --output ./bundle.js --mode production
 ```
